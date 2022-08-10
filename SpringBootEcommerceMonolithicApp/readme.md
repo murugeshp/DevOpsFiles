@@ -1,35 +1,36 @@
-# Hello World Rest API
+# Dockerized Spring Boot Ecommerce application with Mysql and Angular containers
 
-- Main class com.in28minutes.rest.webservices.restfulwebservices.RestfulWebServicesApplication 
-- You cannot run this app on local as it is configured to run on port 80 - https://serverfault.com/questions/112795/how-to-run-a-server-on-port-80-as-a-normal-user-on-linux. You can run it as a docker container as shown below
-
-
-### Creating Containers
-
-- mvn clean package
-- docker run --publish 8200:80 in28min/aws-hello-world-rest-api:0.0.1-SNAPSHOT
+- Ensure latest docker is installed in your machine
 
 ```
-docker login
-docker push @@REPO@@/aws-hello-world-rest-api:0.0.1-SNAPSHOT
+docker --version
 ```
+
+- Download the SpringBootEcommerceMonolithicApp/Dockerize folder into local machine or any server
+- Run "docker-compose up" in the command prompt. By default docker-compose come along with latest docker in windows. If docker-compose not found then install it for appropriate OS. 
+
+```
+docker-compose up
+```
+
+
+### Checking containers are up
+
+- http://localhost:8080/api/products
 
 ## Test URLs
 
-- http://localhost:8200/hello-world
+- http://localhost:4200/
 
 ```txt
-Hello World
+Application Home page
 ```
 
-- http://localhost:8200/hello-world-bean
+- http://localhost:4200/login
 
-```json
-{"message":"Hello World - Changed"}
+```txt
+Sample Login username : murugesh1996@gmail.com
+Pasword : ******** (will be shared seperately)
 ```
 
-- http://localhost:8200/hello-world/path-variable/in28minutes
-
-```json
-{"message":"Hello World, in28minutes"}
-```
+- For any queries, reach out to murugesh1996@gmail.com
