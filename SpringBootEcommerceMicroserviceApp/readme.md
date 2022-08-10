@@ -16,17 +16,17 @@ docker-compose up
 
 ### Checking containers are up
 
-- http://localhost:8080/api/products
+- http://localhost:8761/
 
 ## Test URLs
 
-- http://localhost:4200/
+- http://localhost:8765/
 
 ```txt
 Application Home page
 ```
 
-- http://localhost:4200/login
+- http://localhost:8765/login
 
 ```txt
 Sample Login username : murugesh1996@gmail.com
