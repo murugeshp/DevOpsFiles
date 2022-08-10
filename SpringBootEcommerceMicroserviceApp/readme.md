@@ -26,8 +26,6 @@ docker-compose up
 Application Home page
 ```
 
-- http://localhost:8765/login
-
 ```txt
 Sample Login username : murugesh1996@gmail.com
 Pasword : ******** (will be shared seperately)
