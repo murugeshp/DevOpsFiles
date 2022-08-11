@@ -16,14 +16,22 @@ docker-compose up
 
 ### Checking containers are up
 
-- http://localhost:8761/
+- Eureka Naaming Server : http://localhost:8761/
 
-## Test URLs
+- Zipkin Distributed Tracing : http://localhost:9411/zipkin/
+
+- RabbitMQ logging queue : http://localhost:15672/
+
+- Product service : http://localhost:8765/product-category-service/products
+
+- Orders service : http://localhost:8765/checkout-purchase-service/orders
+
+## Frontend application Homepage URL
 
 - http://localhost:8765/
 
 ```txt
-Application Home page
+You will land up in application home page
 ```
 
 ```txt
