@@ -1,5 +1,15 @@
 # Dockerized Spring Boot Ecommerce application with Mysql and Angular containers
 
+#### Example:
+
+Luv2Shop Ecommerce Application 
+
+An application used to purchase books and travel accessories for personal needs, build with Angular as front end and Spring Boot as the backend. It is dockerized application and it can be easily deployed on any server.
+
+It has product search facility, login using Okta Sign-on, product checkout and purchase. Order Tracking based on user login. Backend order tracking is secured with Spring security to ensure only the authorised person can see the order list
+
+## Try out yourself :)
+
 - Ensure latest docker is installed in your machine
 
 ```
