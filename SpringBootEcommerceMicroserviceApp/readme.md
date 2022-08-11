@@ -1,4 +1,4 @@
-# Dockerized Spring Boot Ecommerce application with Mysql and Angular containers
+# Dockerized Spring Boot Microservice architectured Ecommerce application with Mysql and Angular containers
 
 - Ensure latest docker is installed in your machine
 
